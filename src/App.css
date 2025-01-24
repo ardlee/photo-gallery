@@ -1,0 +1,48 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 1rem;
+  background-color: #8e8e8e;
+  color: #343a40;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem; /*font size of top text*/
+  font-weight: 700; 
+  color: #000000;
+  line-height: 1.2; /* Adjust spacing within the text */
+  max-width: 80%; /* Limit width for better alignment */
+  margin: 0 auto 1rem; /* Center-align with proper spacing */
+}
+
+html, body {/*ensure border of site is not there*/
+  padding: 0;
+  margin: 0;
+  background-color: #8e8e8e;
+}
+
+.custom-image-container {
+  position: relative;
+  display: inline-block;
+  border: 5px solid #000000; /* Blue border around the image */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  padding: 5px; /* Padding for extra space inside the border */
+  background-color: #ffffff; /* White background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.custom-image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px; /* Inner image rounded corners */
+}
+
+.image-description {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #343a40;
+  text-align: center;
+}
