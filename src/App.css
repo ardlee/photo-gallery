@@ -23,22 +23,7 @@ html, body {/*ensure border of site is not there*/
   background-color: #8e8e8e;
 }
 
-.custom-image-container {
-  position: relative;
-  display: inline-block;
-  border: 5px solid #000000; /* Blue border around the image */
-  border-radius: 8px; /* Rounded corners for a modern look */
-  padding: 5px; /* Padding for extra space inside the border */
-  background-color: #ffffff; /* White background for contrast */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-}
 
-.custom-image-container img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px; /* Inner image rounded corners */
-}
 
 .image-description {
   margin-top: 10px;
@@ -46,3 +31,28 @@ html, body {/*ensure border of site is not there*/
   color: #343a40;
   text-align: center;
 }
+
+/* Center the image properly */
+.image-gallery-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Apply border only when not in fullscreen */
+.image-gallery-slide img {
+  max-width: 80vw;  /* Prevents image from overflowing */
+  max-height: 80vh;
+  object-fit: contain; /* Ensures the whole image is visible */
+  border: 5px solid #000000; /* Black border */
+  border-radius: 12px; /* Smooth rounded corners */
+  padding: 0; /* Remove extra padding */
+  background-color: transparent; /* Remove white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+
+
+
+
