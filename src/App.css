@@ -2,7 +2,7 @@
   font-family: 'Arial', sans-serif;
   text-align: center;
   padding: 1rem;
-  background-color: #8e8e8e;
+  background-color: #dedd88;
   color: #343a40;
   box-sizing: border-box;
 }
@@ -20,7 +20,8 @@ h1 {
 html, body {/*ensure border of site is not there*/
   padding: 0;
   margin: 0;
-  background-color: #8e8e8e;
+  background-color: #7ec7f1;
+  ;
 }
 
 
