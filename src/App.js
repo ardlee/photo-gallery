@@ -7,13 +7,13 @@ import { useState } from "react";
 export default function App() {
   const images = [
     {
-      original: "images/image1.jpg",
-      thumbnail: '/images/image1.jpg', 
+      original: "images/2-5-23.jpg",
+      thumbnail: '/images/2-5-23.jpg', 
       description: '2/5/2023'
     },
     {
-      original: "images/image2.jpg",
-      thumbnail: '/images/image2.jpg', 
+      original: "images/2-6-23.jpg",
+      thumbnail: '/images/2-6-23.jpg', 
       description: '2/6/2023'
     },
     {
@@ -41,7 +41,7 @@ export default function App() {
       thumbnail: "images/6-6-23.jpg", 
       description: '6/6/2023'
     },
-    {
+    { 
       original: "images/7-6-23.jpg",
       thumbnail: "images/7-6-23.jpg", 
       description: '7/6/2023'
