@@ -8,12 +8,12 @@ export default function App() {
   const images = [
     {
       original: "images/2-5-23.jpg",
-      thumbnail: '/images/2-5-23.jpg', 
+      thumbnail: 'images/2-5-23.jpg', 
       description: '2/5/2023'
     },
     {
       original: "images/2-6-23.jpg",
-      thumbnail: '/images/2-6-23.jpg', 
+      thumbnail: 'images/2-6-23.jpg', 
       description: '2/6/2023'
     },
     {
