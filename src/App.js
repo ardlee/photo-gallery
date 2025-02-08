@@ -22,19 +22,19 @@ export default function App() {
       description: '3/4/23'
     },
     {
+      original: "images/2-12-23.png",
+      thumbnail: "images/2-12-23.png", 
+      description: '2/12/202'
+    },
+    {
+      original: "images/2-14-23.jpg",
+      thumbnail: "images/2-14-23.jpg", 
+      description: '2/14/2023'
+    },
+    {
       original: "images/3-5-23.jpg",
       thumbnail: "images/3-5-23.jpg", 
       description: '3/5/2023'
-    },
-    {
-      original: "images/3-10-23.png",
-      thumbnail: "images/3-10-23.png", 
-      description: '3/10/2023'
-    },
-    {
-      original: "images/3-14-23.jpg",
-      thumbnail: "images/3-14-23.jpg", 
-      description: '3/14/2023'
     },
     {
       original: "images/6-6-23.jpg",
