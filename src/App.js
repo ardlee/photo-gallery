@@ -17,11 +17,6 @@ export default function App() {
       description: '2/6/2023'
     },
     {
-      original: "images/3-4-23.jpg",
-      thumbnail: "images/3-4-23.jpg",
-      description: '3/4/23'
-    },
-    {
       original: "images/2-12-23.png",
       thumbnail: "images/2-12-23.png", 
       description: '2/12/202'
@@ -30,6 +25,11 @@ export default function App() {
       original: "images/2-14-23.jpg",
       thumbnail: "images/2-14-23.jpg", 
       description: '2/14/2023'
+    },
+    {
+      original: "images/3-4-23.jpg",
+      thumbnail: "images/3-4-23.jpg",
+      description: '3/4/23'
     },
     {
       original: "images/3-5-23.jpg",
